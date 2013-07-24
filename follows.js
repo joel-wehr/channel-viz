@@ -12,7 +12,7 @@
 		hideForm		= 0;
 	*/
 
-	var defaultKey		= 'gRKpXDENfo9YivbwEUah6DsQK2F3DRBP7AgKBiwu1a8m6O6Q', // Unique master Xively API key to be used as a default
+	var defaultKey		= '2L3QzepoFohXmlpIbIYbaJqCou85saDcbbsBApYOa7ukXeTs', // Unique master Xively API key to be used as a default
 		defaultFeeds	= [1990153056!grillTemp!probeTemp], // Comma separated array of Xively Feed ID numbers
 		applicationName	= 'Codename: jTherm-Pro', // Replaces Xively logo in the header
 		dataDuration	= '', // Default duration of data to be displayed // ref: https://xively.com/dev/docs/api/data/read/historical_data/
