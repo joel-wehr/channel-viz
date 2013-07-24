@@ -12,13 +12,13 @@
 		hideForm		= 0;
 	*/
 
-	var defaultKey		= '', // Unique master Xively API key to be used as a default
-		defaultFeeds	= [], // Comma separated array of Xively Feed ID numbers
-		applicationName	= '', // Replaces Xively logo in the header
+	var defaultKey		= 'gRKpXDENfo9YivbwEUah6DsQK2F3DRBP7AgKBiwu1a8m6O6Q', // Unique master Xively API key to be used as a default
+		defaultFeeds	= [1990153056!grillTemp!probeTemp], // Comma separated array of Xively Feed ID numbers
+		applicationName	= 'Codename: jTherm-Pro', // Replaces Xively logo in the header
 		dataDuration	= '', // Default duration of data to be displayed // ref: https://xively.com/dev/docs/api/data/read/historical_data/
-		dataInterval	= 0, // Default interval for data to be displayed (in seconds)
+		dataInterval	= 30, // Default interval for data to be displayed (in seconds)
 		dataColor		= '', // CSS HEX value of color to represent data (omit leading #)
-		hideForm		= 0; // To hide input form use value of 1, otherwise set to 0
+		hideForm		= 1; // To hide input form use value of 1, otherwise set to 0
 
 // Function Declarations
 
